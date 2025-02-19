@@ -104,8 +104,8 @@ rule all:
 
 include: os.path.join(dirs_dict["RULES_DIR"], '00_download_tools.smk')
 include: os.path.join(dirs_dict["RULES_DIR"], '01_quality_control.smk')
-include: os.path.join(dirs_dict["RULES_DIR"], '02_de_novo_assembly.smk')
-include: os.path.join(dirs_dict["RULES_DIR"], '03_mapping.smk')
-include: os.path.join(dirs_dict["RULES_DIR"], '04_transcriptome_assembly.smk')
+#winclude: os.path.join(dirs_dict["RULES_DIR"], '02_de_novo_assembly.smk')
+#include: os.path.join(dirs_dict["RULES_DIR"], '03_mapping.smk')
+#include: os.path.join(dirs_dict["RULES_DIR"], '04_transcriptome_assembly.smk')
 # include: os.path.join(dirs_dict["RULES_DIR"], '05_annotation.smk')
 # include: os.path.join(dirs_dict["RULES_DIR"], '06_gene_expression.smk')
